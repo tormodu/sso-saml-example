@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "idp.js", // Replace 'server.js' with the name of your main server file
+      "src": "idp.js", 
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "idp.js" // Replace 'server.js' with the name of your main server file
+      "dest": "idp.js" 
     }
   ]
 }
